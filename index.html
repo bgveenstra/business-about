@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyMagnet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <header>
+        <h1>Magnets!</h1>
+      </header>
+      <aside class="column">
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="aside-group">
+            <p><span class="aside-group-label">Phone:</span> 867-5309</p>
+            <p><span class="aside-group-label">Email:</span> <a href="mailto:magnets@example.com">magnets@example.com</a></p>
+          </div>
+        </section>
+        <section id="hours">
+          <h2>Hours</h2>
+          <div class="aside-group">
+            <p id="monday" class="hours">
+              <span class="day aside-group-label">Monday:</span>
+              <span class="times">10:00AM - 4:00PM</span>
+            </p>
+            <p id="tuesday" class="hours">
+              <span class="day aside-group-label">Tuesday:</span>
+              <span class="times">10:00AM - 12:00PM</span>
+            </p>
+          </div>
+          <p id="open-now"></p>
+        </section>
+      </aside>
+      <main class="column">
+        <h2>Customize Your Magnet</h2>
+        <form>
+          <p class="form-group">
+            <label for="magnet-text">Magnet Text</label>
+            <input type="text" id="magnet-text-input" name="magnet-text" value="" placeholder="">
+          </p>
+          <p class="form-group">
+            <label for="magnet-color">Magnet Color</label>
+            <input type="text" id="magnet-color-input" name="magnet-color" value="" placeholder="">
+          </p>
+          <p>Preview and calculate cost</p>
+          <button type="submit">Go!</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

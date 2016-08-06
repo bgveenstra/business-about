@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+/*.hours {*/
+aside p {
+  padding: 0 0.5rem;
+}
+
+.aside-group {
+  background-color: #DDD;
+  border: 1px solid #BBB;
+  margin: 0 0.5em;
+}
+
+.aside-group-label {
+  font-weight: bold;
+  font-weight: bold;
+  padding-right: 10%
+}
+
+form {
+  border: 2px dotted blue;
+}
+
+button {
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: #BBDD44;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+
+aside {
+  width: 30%;
+  float: right;
+  background-color: #EEE;
+}
+
+main {
+  width: 70%;
+  float: right;
+  background-color: #AAA;
+}
+
+.column {
+  padding: 0 2em;
+}
